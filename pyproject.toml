@@ -1,0 +1,19 @@
+[project]
+name = "odyssey-python-client-example"
+version = "0.1.0"
+description = "Example project using the Odyssey Python client"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [
+    { name = "Odyssey Team", email = "support@odyssey.ml" }
+]
+dependencies = [
+    "odyssey @ git+https://github.com/odysseyml/odyssey-python.git",
+    "opencv-python>=4.8.0",
+]
+
+[project.urls]
+Homepage = "https://odyssey.ml"
+Documentation = "https://github.com/odysseyml/odyssey-python"
+Repository = "https://github.com/odysseyml/odyssey-python-client-example"
